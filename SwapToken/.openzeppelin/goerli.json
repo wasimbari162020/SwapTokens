@@ -1,0 +1,219 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x42CC60231050C257f2D3b5AeD35Bf26BE68E99c3",
+    "txHash": "0xc8b4dc4bf2c4107b7751e305608244cf7484c87450a0fe333275b5026b871522"
+  },
+  "proxies": [
+    {
+      "address": "0xBf0bAAbbF946D3aa53760F0EFb6353f5306cA780",
+      "txHash": "0xed5255685d1a0661d0710dfadc7584ff80227b76e2271672fd2ef8f2043a1eb0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xbA0988EF0ad5e48E72f7185acA1CA9e12b263fFA",
+      "txHash": "0xe4b04d325c04315de67daad14beeb17086699c6ccbe06dd077263189d9198fb2",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x51C1aD3fD4e13Ca58FeB336667b64d2741A76a0E",
+      "txHash": "0x30461eac2f80ad896db8884575b02fa5660a41e4bbaadfe9b680f62f291bcea9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xbcD0Ad5476a46704EDB6aE69733E61bB0FCEAde9",
+      "txHash": "0x76345e299deb68a7b6eb5f7e48c2e75316d07f82e7206ab6572c3830fdf9934f",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "9eedbed20c18faad1d2ff45f446a98ed2c389d04a0bdfbc8998aff8ae2dfa764": {
+      "address": "0x6BBA93596A23FA18F9799D8AC9A266D953b66180",
+      "txHash": "0x65bf50eedfb1505ef0797ac5ce02468cbc503f735b06393a652b472b59916a4a",
+      "layout": {
+        "solcVersion": "0.7.6",
+        "storage": [
+          {
+            "label": "tokenBucket",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_string_memory_ptr,t_uint256)",
+            "contract": "SwapUSDCToken",
+            "src": "contracts/SwapUSDCToken.sol:84"
+          },
+          {
+            "label": "routerAddress",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "SwapUSDCToken",
+            "src": "contracts/SwapUSDCToken.sol:85"
+          },
+          {
+            "label": "swapRouter",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(ISwapRouter)109",
+            "contract": "SwapUSDCToken",
+            "src": "contracts/SwapUSDCToken.sol:86"
+          },
+          {
+            "label": "DAI",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_address",
+            "contract": "SwapUSDCToken",
+            "src": "contracts/SwapUSDCToken.sol:87"
+          },
+          {
+            "label": "WETH9",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "SwapUSDCToken",
+            "src": "contracts/SwapUSDCToken.sol:88"
+          },
+          {
+            "label": "USDC",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_address",
+            "contract": "SwapUSDCToken",
+            "src": "contracts/SwapUSDCToken.sol:89"
+          },
+          {
+            "label": "LINK",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_address",
+            "contract": "SwapUSDCToken",
+            "src": "contracts/SwapUSDCToken.sol:90"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ISwapRouter)109": {
+            "label": "contract ISwapRouter",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_string_memory_ptr,t_uint256)": {
+            "label": "mapping(string => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_memory_ptr": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string"
+          }
+        }
+      }
+    },
+    "04033d738292003e114cd8dead12cd15f57790df271e3476058eb5a0f407d5e1": {
+      "address": "0x5Df319694Ad252407200cF08519B029776FD658A",
+      "txHash": "0x4b0f6f2dac2ec7e82b36185d07a9601210538a0c28882dafa112f0aa80098ee1",
+      "layout": {
+        "solcVersion": "0.7.6",
+        "storage": [
+          {
+            "label": "tokenBucket",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_string_memory_ptr,t_uint256)",
+            "contract": "SwapCustomERC20",
+            "src": "contracts/SwapCustomERC20.sol:81"
+          },
+          {
+            "label": "routerAddress",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "SwapCustomERC20",
+            "src": "contracts/SwapCustomERC20.sol:84"
+          },
+          {
+            "label": "swapRouter",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(ISwapRouter)109",
+            "contract": "SwapCustomERC20",
+            "src": "contracts/SwapCustomERC20.sol:85"
+          },
+          {
+            "label": "DAI",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_address",
+            "contract": "SwapCustomERC20",
+            "src": "contracts/SwapCustomERC20.sol:86"
+          },
+          {
+            "label": "WETH9",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "SwapCustomERC20",
+            "src": "contracts/SwapCustomERC20.sol:87"
+          },
+          {
+            "label": "USDC",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_address",
+            "contract": "SwapCustomERC20",
+            "src": "contracts/SwapCustomERC20.sol:88"
+          },
+          {
+            "label": "LINK",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_address",
+            "contract": "SwapCustomERC20",
+            "src": "contracts/SwapCustomERC20.sol:89"
+          },
+          {
+            "label": "TOKEN0",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_address",
+            "contract": "SwapCustomERC20",
+            "src": "contracts/SwapCustomERC20.sol:90"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ISwapRouter)109": {
+            "label": "contract ISwapRouter",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_string_memory_ptr,t_uint256)": {
+            "label": "mapping(string => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_memory_ptr": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string"
+          }
+        }
+      }
+    }
+  }
+}

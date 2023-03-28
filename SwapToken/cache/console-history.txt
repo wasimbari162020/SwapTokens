@@ -1,0 +1,14 @@
+(await num2.DAI())
+const num2 = await num1.attach('0xBf0bAAbbF946D3aa53760F0EFb6353f5306cA780');
+const num1 = await ethers.getContractFactory("SwapUSDCToken");
+await num3.increment()
+const num3 = await SWAPUSDv2.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0");
+const num2 = await SWAPUSDv2.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0");
+const num2 = await NUM2.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0");
+const SWAPUSDv2 = await ethers.getContractFactory("SwapUSDCv2");
+(await swap1.
+const swap1 = await SWAPUSD.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+ const SWAPUSD = await ethers.getContractFactory("SwapUSDC");
+const num2 = await NUM1.attach("0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+num1
+const num1 = await ethers.getContractFactory("SwapUSDC");
